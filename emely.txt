@@ -1,6 +1,0 @@
-SqlConnection con= null;
-
-Public conecter ()
-con= new SqlConnection ();
-con.ConnectionString = "Data Source
-this.conectar ();
