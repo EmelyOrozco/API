@@ -1,0 +1,8 @@
+C:\Users\Orozco\Documents\BD\Cierre y apertura\Cierre y apertura\bin\Debug\Cierre y apertura.exe.config
+C:\Users\Orozco\Documents\BD\Cierre y apertura\Cierre y apertura\bin\Debug\Cierre y apertura.exe
+C:\Users\Orozco\Documents\BD\Cierre y apertura\Cierre y apertura\bin\Debug\Cierre y apertura.pdb
+C:\Users\Orozco\Documents\BD\Cierre y apertura\Cierre y apertura\obj\Debug\Cierre y apertura.csproj.AssemblyReference.cache
+C:\Users\Orozco\Documents\BD\Cierre y apertura\Cierre y apertura\obj\Debug\Cierre y apertura.csproj.SuggestedBindingRedirects.cache
+C:\Users\Orozco\Documents\BD\Cierre y apertura\Cierre y apertura\obj\Debug\Cierre y apertura.csproj.CoreCompileInputs.cache
+C:\Users\Orozco\Documents\BD\Cierre y apertura\Cierre y apertura\obj\Debug\Cierre y apertura.exe
+C:\Users\Orozco\Documents\BD\Cierre y apertura\Cierre y apertura\obj\Debug\Cierre y apertura.pdb

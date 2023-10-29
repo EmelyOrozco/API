@@ -1,0 +1,71 @@
+ALTER TABLE FlotillaVehiculo
+ADD FOREIGN KEY (IdMarca)
+REFERENCES Marca (IdMarca)
+
+ALTER TABLE FlotillaVehiculo
+ADD FOREIGN KEY (IdModelo)
+REFERENCES Modelo (IdModelo)
+
+ALTER TABLE FlotillaVehiculo
+ADD FOREIGN KEY (IdConductor)
+REFERENCES Conductor (IdConductor)
+
+ALTER TABLE Flotillaconductor
+ADD FOREIGN KEY (IdConductor)
+REFERENCES Conductor (IdConductor)
+
+ALTER TABLE Conductor
+ADD FOREIGN KEY (IdEmpleado)
+REFERENCES Empleado (IdEmpleado)
+
+ALTER TABLE FacturaMaestro
+ADD FOREIGN KEY (IdCliente)
+REFERENCES Cliente (IdCliente)
+
+ALTER TABLE FacturaDetalle
+ADD FOREIGN KEY (IdProducto)
+REFERENCES Producto (IdProducto)
+
+ALTER TABLE CotizacionMaestro
+ADD FOREIGN KEY (IdCliente)
+REFERENCES Cliente (IdCliente)
+
+
+Descripcion:
+Nestlé es la mayor empresa de alimentos y bebidas del mundo, con presencia en 191 países. Contamos con más de 2.000 marcas, algunas mundialmente icónicas y otras regionales, que representan una gran variedad de productos. cita bibliografica (Nestle, 2019)
+
+Nestlé Dominicana, la empresa de alimentos y bebidas más grande del mundo y líder en nutrición, salud y bienestar, tiene más de 100 años de presencia en la República Dominicana. Nuestras operaciones integran dos fábricas, una sede corporativa y varios centros de distribución, con los cuales impactamos positivamente a 801 colaboradores directos y 12,000 indirectos y sus familias. (Great Place to world, 2022)
+
+https://greatplacetoworkcarca.com/es/nestle-dominicana-s-a/#:~:text=Resumen%20de%20la%20Organizaci%C3%B3n&text=Nestl%C3%A9%20Dominicana%2C%20la%20empresa%20de,presencia%20en%20la%20Rep%C3%BAblica%20Dominicana.
+
+Mision, vision y Valores:
+https://www.nestle.do/aboutus/mision
+Nuestra visión es ser la principal compañía de comida y bebidas en la región del Caribe, proporcionando a nuestros clientes productos de alta calidad y servicios con valor añadido, a precios competitivos, al mismo tiempo garantizar la viabilidad a largo plazo y la rentabilidad de la organización.
+
+Nuestra misión exige que:
+Seamos vistos como una amistosa, cuidadosa y eficiente organización, cuyo principal objetivo es ofrecer a los consumidores con seguridad y conveniencia, productos alimenticios de alta calidad.
+
+Seamos conscientes de nuestro papel, como una de las principales corporaciones, que nos exige en todo momento estar en sintonía con y responder a las consecuencias sociales, ambientales, económicos y aspiraciones culturales de los pueblos del Caribe, al tiempo que se garantice a nuestros accionistas un rendimiento razonable de su inversión.
+
+Seamos vistos como un lugar ideal de trabajo con buenas condiciones y beneficios, con un ambiente interno en el que nuestro personal pueda lograr satisfacción, libre desarrollo y sus razonables aspiraciones.
+
+Seamos vistos como un ejemplo perfecto de una culta, innovadora y moderna corporación del Caribe, con un progresivo y dinámico liderazgo que está soportado por la alta profesionalidad, compromiso, lealtad y dedicación de sus empleados. 
+
+Se entiende que para poder hacer realidad nuestra visión, tenemos que seguir luchando para ganar el reconocimiento y satisfacer la confianza que nuestros clientes y socios comerciales depositan en nosotros.
+https://www.nestle.com.ve/aboutus/vision
+Nuestros Valores
+Fuerte compromiso con productos y marcas de calidad.
+Respeto de otras culturas y tradiciones.
+Relaciones personales basadas en la confianza y el respeto mutuo.
+Alto nivel de tolerancia frente a las ideas y opiniones de los demás.
+Enfoque más pragmático de los negocios.
+Apertura y curiosidad frente a futuras tendencias tecnológicas dinámicas.
+Orgullo de contribuir a la reputación y los resultados de la Compañía.
+Lealtad a la Compañía e identificación con ella.
+
+
+
+
+
+
+
