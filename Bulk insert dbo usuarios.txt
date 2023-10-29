@@ -1,9 +1,0 @@
-Bulk insert dbo usuarios
-From ´Link excel´
-With (FORMAT = ´csv´)
-
-CREATE view V_usuarios
-As
-SELECT 
-From dbo usuarios 
-Where carreras = ´´
